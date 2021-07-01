@@ -1,0 +1,129 @@
+@media screen and (min-width: 480px){
+    body{
+        background: rgb(50,205,50);
+    }
+    .container{
+        margin: 2% auto;
+    }
+    #div1{
+        background-color: #ffffff;
+        height: 148vh;
+    }
+    #div1 img{
+        height: 100px;
+    }
+    #div1 p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: #000000;
+        margin: 70px 15px 0px;
+    }
+    #underline{
+        width: 653px;
+        height: 0px;
+        border: 3px solid #E5E5E5;
+    }
+    button{
+        background: #2BB351;
+        border-radius: 30px;
+        width: 260px;
+        height: 45px;
+        color: #ffffff;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+        margin: 2px 100px;
+        border: 1px solid #2BB351;
+    }
+    button:hover{
+        font-size: 25px;
+    }
+
+    #div2{
+        background: rgba(0, 0, 0, 0.7);
+        color: #ffffff;
+    }
+    #forCvv{
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background: rgba(43, 179, 81, 0.89);
+    }
+    .container{
+        margin: 5% auto;
+    }
+    /* DIV 1 */
+    #div1{
+        background-color: #ffffff;
+        height: 148vh;
+    }
+    #div1 img{
+        height: 100px;
+    }
+    #div1 p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: #000000;
+        margin: 70px 20px 0px;
+    }
+    #div1 span{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        margin: 30px;
+    }
+    #underline{
+        width: 653px;
+        height: 0px;
+        border: 3px solid #E5E5E5;
+    }
+    button{
+        background: #2BB351;
+        border-radius: 30px;
+        width: 260px;
+        height: 45px;
+        color: #ffffff;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+        margin: 5px 100px;
+        border: 1px solid #2BB351;
+    }
+    button:hover{
+        font-size: 25px;
+    }
+    /* DIV 2 */
+    #div2{
+        background: rgba(0, 0, 0, 0.7);
+        color: #ffffff;
+    }
+    .form-content{
+        margin: 12px;
+    }
+    .form-content input, .form-content select{
+        height: 50px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.39);
+    }
+    .form-content label{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+    }
+}
